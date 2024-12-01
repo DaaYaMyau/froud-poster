@@ -1,0 +1,31 @@
+body {
+    background: #0075F2;
+    color: white;
+}
+
+.p-big {
+    font-family: "Gridtile";
+    font-size: 221px;
+}
+
+hr {
+    color: white;
+    border: 3px;
+}
+
+.section-2 {
+    /* display: flex; */
+}
+
+.secondS-p {
+    font-family: "Gridtile";
+    font-size: 132px;
+}
+
+.left {
+    rotate: -90deg;
+}
+
+.right {
+    rotate: 270deg;
+}
