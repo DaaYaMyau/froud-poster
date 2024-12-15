@@ -1,0 +1,38 @@
+@media (max-width: 1440px) {
+    .Fl11 {
+        display: none;
+    }
+
+     .flower {
+         margin-left: 0vw;
+         margin-right: 3.7823vw;
+     }
+            
+    .firstline {
+        margin-left: 0.1823vw;
+        margin-top: 0.1042vw;
+        margin-bottom: 1vw;
+     }
+            
+    .secondline {
+        margin-bottom: 1vw;
+        margin-left: 3.5937vw;
+    }
+            
+    .thirdline {
+        margin-left: 0.1823vw;
+        margin-bottom: 1vw;
+    }
+            
+    .fourthline {
+        margin-bottom: 0.6687vw;
+        margin-left: 3.5937vw;
+    }
+ }
+
+ .secondline, .fourthline {
+    display: flex;
+    margin-bottom: 0.8vw;
+    /* margin-left: 3.96vw; */
+    margin-left: 4vw;
+}
