@@ -1,38 +1,164 @@
+@media (max-width: 1680px) {
+    .salat img{
+        margin-bottom: -4.3vw;
+    }
+
+    .orange {
+        margin-bottom: -2.5vw;
+    }
+
+    .saladtxt {
+        margin-bottom: -1vw;
+    }
+
+    .apple {
+        margin-bottom: -0.85vw;
+    }
+
+    .flower {
+        margin-left: 1.6vw;
+    }
+
+    .footer {
+        margin-top: -102px;
+    }
+
+    .group p{
+        margin-right: 20vw;
+    }
+}
+
 @media (max-width: 1440px) {
-    .Fl11 {
+    .salat img{
+        margin-bottom: -4.3vw;
+    }
+
+    .orange {
+        margin-bottom: -2.7vw;
+    }
+
+    .saladtxt {
+        margin-bottom: -1.3vw;
+    }
+
+    .apple {
+        margin-bottom: -1vw;
+    }
+
+    .flower {
+        margin-left: 0.8vw;
+        margin-right: 2.5vw;
+    }
+
+    .footer {
+        margin-top: -118px;
+    }
+
+    .footer {
+        margin-top: -100px;
+    }
+
+    .group p{
+        margin-right: 19.9vw;
+    }
+}
+
+@media (max-width: 1367px) {
+    .saladtxt {
+        margin-bottom: -1.1vw;
+    }
+
+    .apple {
+        margin-bottom: -1.1vw;
+    }
+
+    .footer {
+        margin-top: -97px;
+    }
+
+    .group p{
+        margin-right: 19.4vw;
+    }
+
+    .flower {
+        margin-left: 1vw;
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .flower {
+        margin-left: 0.7vw;
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer {
+        margin-top: -77px;
+    }
+
+    .group p{
+        margin-right: 18.4vw;
+    }
+
+    .flower {
+        margin-left: 0.7vw;
+        margin-right: 2.4vw;
+    }
+
+    .Fl11, .Fl12 {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        margin-top: -58px;
+    }
+
+    .group p{
+        margin-right: 16.2vw;
+    }
+
+    /* .flower {
+        margin-left: 2vw;
+        margin-right: 3vw;
+    } */
+
+    .Fl9, .Fl10, .Fl11, .Fl12 {
+        display: none;
+    }
+}
+
+@media (max-width: 415px) {
+    .footer {
+        margin-top: -58px;
+    }
+
+    .group p{
+        margin-right: 6.4vw;
+    }
+
+    .flower {
+        margin-left: 8vw;
+        margin-right: 10vw;
+    }
+
+    .Fl3, .Fl4, .Fl5, .Fl6, .Fl7, .Fl8 {
         display: none;
     }
 
-     .flower {
-         margin-left: 0vw;
-         margin-right: 3.7823vw;
-     }
-            
-    .firstline {
-        margin-left: 0.1823vw;
-        margin-top: 0.1042vw;
-        margin-bottom: 1vw;
-     }
-            
-    .secondline {
-        margin-bottom: 1vw;
-        margin-left: 3.5937vw;
+    .secondline, .fourthline {
+        margin-left: 17vw;
     }
-            
-    .thirdline {
-        margin-left: 0.1823vw;
-        margin-bottom: 1vw;
-    }
-            
-    .fourthline {
-        margin-bottom: 0.6687vw;
-        margin-left: 3.5937vw;
-    }
- }
+    
+}
 
- .secondline, .fourthline {
-    display: flex;
-    margin-bottom: 0.8vw;
-    /* margin-left: 3.96vw; */
-    margin-left: 4vw;
+@media (max-width: 360px) {
+    .flower {
+        margin-left: 6.5vw;
+        margin-right: 9.5vw;
+    }
+
 }
