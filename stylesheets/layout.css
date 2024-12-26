@@ -17,29 +17,11 @@ body {
     font-size: clamp(64px, 1.736rem + 10.06vw, 221px);
     position: absolute;
     width: 100vw;
-    animation: p-big 3s linear infinite;
-    /* will-change: transform, right, top; */
-}
-
-.p-big:hover {
-    animation-play-state: paused;
-}
-
-@keyframes p-big {
-    0%{right: 100%; top: 0px;}
-    100%{right: -100%; top: 0px;}
 }
 
 .LeftBig p{
     position: absolute;
     width: 100vw;
-    will-change: transform, right, top;
-    animation: p-bigLeft 2.2s linear infinite;
-}
-
-@keyframes p-bigLeft {
-    0%{left: 100%; top: 0px;}
-    100%{left: -100%; top: 0px;}
 }
 
 .line img{
@@ -49,9 +31,6 @@ body {
 .salat {
     position: relative;
     z-index: 1;
-    /* width: 12.29vw;
-    height: 12.14vw; */
-    animation: salat 0.2s steps(2) infinite;
 }
 
 .salat img{
@@ -61,15 +40,6 @@ body {
     width: 12.29vw;
     height: 12.14vw;
 }
-
-@keyframes salat{
-    0%{left: 0; top: 0;}
-    100%{left: 10px; top: 1px;}
-}
-
-/* .desk-1 {
-    margin-bottom: 2.24vw;
-} */
 
 .desk-2 {
     display: flex;
@@ -86,12 +56,6 @@ body {
     margin-left: 4.17vw;
     margin-right: 15.31vw;
     margin-bottom: -2.4vw;
-    animation: orange 0.3s steps(2) infinite;
-}
-
-@keyframes orange {
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(360deg)}
 }
 
 .tomato img {
@@ -100,12 +64,6 @@ body {
     margin-bottom: -1vw;
     position: relative;
     z-index: 1;
-    animation: tomato 0.2s steps(2) infinite;
-}
-
-@keyframes tomato {
-    0%{left: 10px; top: 2px;}
-    100%{left: 0px; top: 0;}
 }
 
 .desk-3 {
@@ -117,23 +75,11 @@ body {
     margin-left: 36.44vw;
     margin-right: 22.7vw;
     margin-bottom: -0.7vw;
-    animation: salad 0.3s steps(2) infinite;
-}
-
-@keyframes salad {
-    0%{transform: rotate(0deg);}
-    100%{transform: rotate(360deg)}
 }
 
 .apple {
     font-size: clamp(40px, 1.231rem + 5.64vw, 128px);
     margin-bottom: -0.7vw;
-    animation: apple 0.3s steps(2) infinite;
-}
-
-@keyframes apple {
-    0%{transform: rotate(360deg);}
-    100%{transform: rotate(0deg)}
 }
 
 .soup {
@@ -141,12 +87,6 @@ body {
     margin-left: 11.77vw;
     margin-right: 19.58vw;
     margin-bottom: -1.2vw;
-    animation: soup 0.3s steps(2) infinite;
-}
-
-@keyframes soup {
-    0%{transform: rotate(360deg);}
-    100%{transform: rotate(0deg)}
 }
 
 .strawberry img {
@@ -155,16 +95,6 @@ body {
     margin-bottom: -2vw;
     position: relative;
     z-index: 1;
-    animation: strawberry 0.2s steps(2) infinite;
-}
-
-@keyframes strawberry {
-    0%{left: 0px; top: 1px;}
-    100%{left: 15px; top: 0;}
-}
-
-.section-2 {
-    /* display: flex; */
 }
 
 .secondS-p {
@@ -176,17 +106,14 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    /* width: 100vw; */
 } 
 
 .leftSoup {
     position: relative;
     writing-mode: vertical-lr;
     rotate: -180deg; 
-    /* margin-right: 84.8vw; */
     height: 31.7vw;
     overflow: hidden;
-    /* animation: soups 3s linear infinite; */
 }
 
 .rightSoup {
@@ -194,26 +121,13 @@ body {
     writing-mode: vertical-lr;
     height: 31.7vw;
     overflow: hidden;
-    /* animation: soups 3s linear infinite; */
-    /* padding-bottom: 3px; */
 }
-
-/* .rightSoup:hover, .leftSoup:hover {
-    animation-play-state: paused;
-}
-
-@keyframes soups{
-    0%{left: 100%; top: 0%;}
-    100%{left: -100%; top: 0%;}
-} */
 
 .animvegetables {
     position: relative;
     width: 87.92vw;
     height: 22.55vw;
     overflow-x: hidden;
-    /* top: 940px;
-    margin-left: 5.5vw; */
 }
 
 .animvegetables img {
@@ -221,12 +135,6 @@ body {
     width: 86vw;
     height: 22.55vw;  
     will-change: transform, right, top;
-    animation: animveg 3s linear infinite;
-}
-
-@keyframes animveg {
-    0%{left: 100%; top: 0px;}
-    100%{left: -100%; top: 0px;}
 }
 
 .section-3 {
@@ -240,50 +148,11 @@ body {
 .blueflower {
     width: 34.9375vw;
     height: 32.6vw;
-    will-change: transform, right, top;
-    animation: blueflower 0.5s steps(1)  infinite;
-}
-
-.leftFlower {
-    /* margin-right: 14.36vw; */
-}
-
-.rightFlower {
-    /* margin-left: 14.36vw; */
-}
-
-@keyframes blueflower {
-    0% {
-        background-image: url(../img/flowerblue.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    33.33% {
-        background-image: url(../img/flowerwhite.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    66.66% {
-        background-image: url(../img/flowerframe.svg);
-         background-repeat: no-repeat;
-        background-position: center;
-    }
-    100% {
-        background-image: url(../img/flowerblue.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-    /* 0% {background-image: url(../img/flowerblue.svg);  background-repeat: no-repeat; background-position: center;}
-    50% {background-image: url(../img/flowerwhite.svg);  background-repeat: no-repeat; background-position: center;}
-    100% {background-image: url(../img/flowerframe.svg);  background-repeat: no-repeat; background-position: center;} */
 }
 
 .fridge {
-    /* width: 19vw;
-    height: 24.9479vw; */
     width: 30vw;
     height: 30.9479vw;
-    /* background-image: url(../img/fridgephoto.svg); */
     background-image: url(../img/fridge.svg);
     background-position: center;
     background-repeat: no-repeat;
@@ -302,7 +171,6 @@ body {
 .flower {
     margin-left: 2.2vw;
     margin-right: 2vw;
-    /* width: 3.59vw; */
 }
 
 .flower img {
@@ -324,15 +192,6 @@ body {
     background-repeat: no-repeat;
 }
 
-.Fapple:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    background-size: 90% auto;
-    background-image: url(../img/apple.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .Fstrawberry img {
     width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
     height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
@@ -343,15 +202,6 @@ body {
     height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem); 
     background-size: 100% auto;
     background-image: url(../img/smallflower.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.Fstrawberry:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    background-size: 90% auto;
-    background-image: url(../img/strawberrysmall.svg);
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -370,36 +220,20 @@ body {
     background-repeat: no-repeat;
 }
 
-.Ftomato:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    background-size: 90% auto;
-    background-image: url(../img/tomatosmall.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.Fl1first:hover, .Fl6first:hover, .Fl11first:hover, .Fl7second:hover, .Fl12second:hover, .Fl4third:hover, .Fl10third:hover, .Fl3fourth:hover, .Fl7fourth:hover, .Fl1fourth:hover {
-    opacity: 0;
-}
-
 .firstline, .thirdline {
     display: flex;
     margin-top: 0.89vw;
     margin-bottom: 0.8vw;
-    /* margin-left: -2vw; */
 }
 
 .secondline, .fourthline {
     display: flex;
     margin-bottom: 0.8vw;
-    /* margin-left: 3.96vw; */
     margin-left: 4vw;
 }
 
 
 .bottles {
-    /* display: flex; */
     position: relative;
     z-index: 1;
 }
@@ -409,17 +243,6 @@ body {
     width: 9.69vw;
     height: 25.05vw;
     margin-right: 4vw;
-    animation: milkfirst 2.7s steps(7) infinite;
-}
-
-@keyframes milkfirst {
-    0% {right: 10vw; top: 0vw; rotate: 10deg;}
-    17% {right: 20vw; top: 5vw; rotate: -15deg;}
-    33% {right: 35vw; top: 2vw; rotate: 0deg;}
-    49% {right: 57vw; top: -3vw; rotate: 30deg;}
-    66% {right: 70vw; top: 7vw; rotate: -10deg;}
-    82% {right: 85vw; top: 0vw; rotate: 20deg;}
-    100% {right: 100vw; top: -5vw; rotate: -20deg;}
 }
 
 .milksecond img {
@@ -427,40 +250,17 @@ body {
     width: 6vw;
     height: 15vw;
     margin-right: 4vw;
-    animation: milksecond 2.7s steps(7) infinite;
-}
-
-@keyframes milksecond {
-    0% {right: 5vw; top: -9vw; rotate: 0deg;}
-    17% {right: 10vw; top: -1vw; rotate: -10deg;}
-    33% {right: 29vw; top: 5vw; rotate: 10deg;}
-    49% {right: 39vw; top: 0vw; rotate: -17deg;}
-    66% {right: 53vw; top: 7vw; rotate: 12deg;}
-    82% {right: 68vw; top: -10vw; rotate: -20deg;}
-    100% {right: 85vw; top: 0vw; rotate: 20deg;}
 }
 
 .milkthird img {
     position: absolute;
     width: 8.125vw;
     height: 21.04vw;
-    animation: milkthird 2.7s steps(7) infinite;
-}
-
-@keyframes milkthird {
-    0% {right: 0vw; top: -8vw; rotate: -5deg;}
-    17% {right: 5vw; top: -1vw; rotate: 20deg;}
-    33% {right: 20vw; top: -4vw; rotate: -20deg;}
-    49% {right: 30vw; top: 7vw; rotate: 30deg;}
-    66% {right: 45vw; top: 1vw; rotate: -15deg;}
-    82% {right: 57vw; top: -5vw; rotate: 20deg;}
-    100% {right: 77vw; top: 0vw; rotate: -30deg;}
 }
 
 .downpart {
     display: flex;
     flex-direction: column;
-    /* width: 100vw; */
 }
 
 .milkP {
@@ -468,624 +268,21 @@ body {
     width: 100vw;
     height: auto;
     position: relative;
-    animation: typing 2.2s steps(19) infinite, blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     font-size: clamp(31px, 0.048rem + 8.4vw, 162px);
 }
 
-@keyframes typing {
-    from {
-      width: 0
-    }
-  }
-      
-  @keyframes blink {
-    50% {
-      border-color: transparent
-    }
-  }
-
 .milkanim {
     width: 100vw;
     height: 56.2500vw;
-    /* margin-bottom: 200px; */
-    /* position: relative;
-    z-index: 1;
-    margin-top: -260px; */
     background-image: url(../img/0185.png);
     background-position: bottom;
     background-repeat: no-repeat;
-    animation: waves 7s steps(116) infinite;
-}
-
-@keyframes waves {
-    0.85% {
-        background-image: url(../img/0185.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    1.7% {
-        background-image: url(../img/0186.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    2.55% {
-        background-image: url(../img/0187.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    3.4% {
-        background-image: url(../img/0188.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    4.25% {
-        background-image: url(../img/0189.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    5.1% {
-        background-image: url(../img/0190.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    5.95% {
-        background-image: url(../img/0191.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    6.8% {
-        background-image: url(../img/0192.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    7.65% {
-        background-image: url(../img/0193.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    8.5% {
-        background-image: url(../img/0194.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    9.35% {
-        background-image: url(../img/0195.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    10.2% {
-        background-image: url(../img/0196.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    11.05% {
-        background-image: url(../img/0197.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    11.9% {
-        background-image: url(../img/0198.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    12.75% {
-        background-image: url(../img/0199.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    13.6% {
-        background-image: url(../img/0200.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    14.45% {
-        background-image: url(../img/0201.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    15.3% {
-        background-image: url(../img/0202.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    16.15% {
-        background-image: url(../img/0203.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    17% {
-        background-image: url(../img/0204.png);
-         background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    17.85% {
-        background-image: url(../img/0205.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    18.7% {
-        background-image: url(../img/0206.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    19.55% {
-        background-image: url(../img/0207.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    20.4% {
-        background-image: url(../img/0208.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    21.25% {
-        background-image: url(../img/0209.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    22.1% {
-        background-image: url(../img/0210.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    22.95% {
-        background-image: url(../img/0211.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    23.8% {
-        background-image: url(../img/0212.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    24.65% {
-        background-image: url(../img/0213.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    25.5% {
-        background-image: url(../img/0214.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    26.35% {
-        background-image: url(../img/0215.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    27.2% {
-        background-image: url(../img/0216.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    28.05% {
-        background-image: url(../img/0217.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    28.9% {
-        background-image: url(../img/0218.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    29.75% {
-        background-image: url(../img/0219.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    30.6% {
-        background-image: url(../img/0220.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    31.45% {
-        background-image: url(../img/0221.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    32.3% {
-        background-image: url(../img/0222.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    33.15% {
-        background-image: url(../img/0223.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    34.0% {
-        background-image: url(../img/0224.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    34.85% {
-        background-image: url(../img/0225.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    35.7% {
-        background-image: url(../img/0226.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    36.55% {
-        background-image: url(../img/0227.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    37.4% {
-        background-image: url(../img/0228.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    38.25% {
-        background-image: url(../img/0229.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    39.1% {
-        background-image: url(../img/0230.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    39.95% {
-        background-image: url(../img/0231.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    40.8% {
-        background-image: url(../img/0232.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    41.65% {
-        background-image: url(../img/0233.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    42.5% {
-        background-image: url(../img/0234.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    43.35% {
-        background-image: url(../img/0235.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    44.2% {
-        background-image: url(../img/0236.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    45.05% {
-        background-image: url(../img/0237.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    45.9% {
-        background-image: url(../img/0238.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    46.75% {
-        background-image: url(../img/0239.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    47.6% {
-        background-image: url(../img/0240.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    48.45% {
-        background-image: url(../img/0241.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    49.3% {
-        background-image: url(../img/0242.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    50.15% {
-        background-image: url(../img/0243.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    51.0% {
-        background-image: url(../img/0244.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    51.85% {
-        background-image: url(../img/0245.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    52.7% {
-        background-image: url(../img/0246.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    53.55% {
-        background-image: url(../img/0247.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    54.4% {
-        background-image: url(../img/0248.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    55.25% {
-        background-image: url(../img/0249.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    56.1% {
-        background-image: url(../img/0250.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    56.95% {
-        background-image: url(../img/0251.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    57.8% {
-        background-image: url(../img/0252.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    58.65% {
-        background-image: url(../img/0253.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    59.5% {
-        background-image: url(../img/0254.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    60.35% {
-        background-image: url(../img/0255.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    61.2% {
-        background-image: url(../img/0256.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    62.05% {
-        background-image: url(../img/0257.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    62.9% {
-        background-image: url(../img/0258.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    63.75% {
-        background-image: url(../img/0259.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    64.6% {
-        background-image: url(../img/0260.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    65.45% {
-        background-image: url(../img/0261.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    66.3% {
-        background-image: url(../img/0262.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    67.15% {
-        background-image: url(../img/0263.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    68.0% {
-        background-image: url(../img/0264.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    68.85% {
-        background-image: url(../img/0265.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    69.7% {
-        background-image: url(../img/0266.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    70.55% {
-        background-image: url(../img/0267.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    71.4% {
-        background-image: url(../img/0268.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    72.25% {
-        background-image: url(../img/0269.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    73.1% {
-        background-image: url(../img/0270.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    73.95% {
-        background-image: url(../img/0271.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    74.8% {
-        background-image: url(../img/0272.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    75.65% {
-        background-image: url(../img/0273.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    76.5% {
-        background-image: url(../img/0274.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    77.35% {
-        background-image: url(../img/0275.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    78.2% {
-        background-image: url(../img/0276.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    79.05% {
-        background-image: url(../img/0277.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    79.9% {
-        background-image: url(../img/0278.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    80.75% {
-        background-image: url(../img/0279.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    81.6% {
-        background-image: url(../img/0280.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    82.45% {
-        background-image: url(../img/0281.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    83.3% {
-        background-image: url(../img/0282.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    84.15% {
-        background-image: url(../img/0283.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    85.0% {
-        background-image: url(../img/0284.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    85.85% {
-        background-image: url(../img/0285.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    86.7% {
-        background-image: url(../img/0286.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    87.55% {
-        background-image: url(../img/0287.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    88.4% {
-        background-image: url(../img/0288.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    89.25% {
-        background-image: url(../img/0289.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    90.1% {
-        background-image: url(../img/0290.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    90.95% {
-        background-image: url(../img/0291.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    91.8% {
-        background-image: url(../img/0292.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    92.65% {
-        background-image: url(../img/0293.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    93.5% {
-        background-image: url(../img/0294.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    94.35% {
-        background-image: url(../img/0295.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    95.2% {
-        background-image: url(../img/0296.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    96.05% {
-        background-image: url(../img/0297.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    96.9% {
-        background-image: url(../img/0298.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    97.75% {
-        background-image: url(../img/0299.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
-    100% {
-        background-image: url(../img/0300.png);
-        background-repeat: no-repeat;
-        background-position: bottom;
-    }
 }
 
 .footer {
     display: flex;
-    /* position: relative;
-    z-index: 2; */
     margin-top: -130px;
 }
 
