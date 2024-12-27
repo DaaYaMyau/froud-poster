@@ -7,6 +7,10 @@ body {
     cursor: url(../img/cursor.svg), default;
 }
 
+.animationblockphone {
+    display: none;
+}
+
 .p-big {
     position: relative;
     width: 100vw;
@@ -143,12 +147,6 @@ body {
     background-position: center;
     overflow-x: hidden;
 }
-
-/* .animvegetables img {
-    position: relative;
-    width: 86vw;
-    height: 22.55vw;  
-} */
 
 .section-3 {
     display: flex;

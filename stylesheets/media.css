@@ -245,6 +245,52 @@
         background-repeat: no-repeat;
         background-position: center;
     }
+
+    .animationblock {
+        display: none;
+    }
+
+    .animationblockphone {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .firstblock {
+        margin-top: 7vw;
+        width: 57.9710vw;
+        height: 61.8357vw;
+        background-image: url(../img/banana.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .secondblock {
+        width: 54.3478vw;
+        height: 60.8696vw;
+        background-image: url(../img/croissant.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .thirdblock {
+        width: 50.9662vw;
+        height: 61.1111vw;
+        background-image: url(../img/applephone.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 7vw;
+    }
+
+    .leftSoup {
+        height: 199vw;
+    }
+    
+    .rightSoup {
+        height: 199vw;
+    }
 }
 
 @media (max-width: 360px) {

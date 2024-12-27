@@ -795,3 +795,96 @@
         background-position: bottom;
     }
 }
+
+.firstblock {
+    animation: firstblock 1s steps(1) infinite;
+}
+
+@keyframes firstblock {
+    0% {  
+        width: 57.9710vw;
+        height: 61.8357vw;
+        background-image: url(../img/banana.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    50% {
+        width: 54.3478vw;
+        height: 60.8696vw;
+        background-image: url(../img/applephone.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }   
+    100% {
+        width: 57.9710vw;
+        height: 61.8357vw;
+        background-image: url(../img/banana.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.secondblock {
+    animation: secondblock 1s steps(1) infinite;
+}
+
+@keyframes secondblock {
+    0% {  
+        width: 54.3478vw;
+        height: 60.8696vw;
+        background-image: url(../img/croissant.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;    
+    }
+    50% {
+        width: 57.9710vw;
+        height: 61.8357vw;
+        background-image: url(../img/banana.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }   
+    100% {
+        width: 54.3478vw;
+        height: 60.8696vw;
+        background-image: url(../img/croissant.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;   
+    }
+}
+
+.thirdblock {
+    animation: thirdblock 1s steps(1) infinite;
+}
+
+@keyframes thirdblock {
+    0% {  
+        width: 50.9662vw;
+        height: 61.1111vw;
+        background-image: url(../img/applephone.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    50% {
+        width: 54.3478vw;
+        height: 60.8696vw;
+        background-image: url(../img/croissant.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center; 
+    }   
+    100% {
+        width: 50.9662vw;
+        height: 61.1111vw;
+        background-image: url(../img/applephone.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
