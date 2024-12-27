@@ -10,7 +10,9 @@ body {
     position: relative;
     width: 100vw;
     overflow-x: hidden;
-    height: 12vw;
+    height: 11vw;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .p-big p{
@@ -123,19 +125,29 @@ body {
     overflow: hidden;
 }
 
-.animvegetables {
+.animationblock {
     position: relative;
     width: 87.92vw;
     height: 22.55vw;
     overflow-x: hidden;
 }
 
-.animvegetables img {
+.animvegetables {
+    position: relative;
+    width: 263.76vw;
+    height: 22.55vw;
+    background-image: url(../img/animationblock.svg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+/* .animvegetables img {
     position: relative;
     width: 86vw;
     height: 22.55vw;  
-    will-change: transform, right, top;
-}
+} */
 
 .section-3 {
     display: flex;
@@ -154,14 +166,16 @@ body {
     width: 30vw;
     height: 30.9479vw;
     background-image: url(../img/fridge.svg);
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .fridge:hover {
     background-image: url(../img/fridgephoto.svg);
-    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .section-4 {
@@ -174,50 +188,50 @@ body {
 }
 
 .flower img {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
 }
 
 .Fapple img{
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
 }
 
 .Fapple {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
     background-size: 100% auto;
     background-image: url(../img/smallflower.svg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .Fstrawberry img {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
 }
 
 .Fstrawberry {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem); 
+    width: 3.5417vw;
+    height: 3.5417vw; 
     background-size: 100% auto;
     background-image: url(../img/smallflower.svg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .Ftomato img{
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
 }
 
 .Ftomato {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
     background-size: 100% auto;
     background-image: url(../img/smallflower.svg);
-    background-position: center;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .firstline, .thirdline {
@@ -231,7 +245,6 @@ body {
     margin-bottom: 0.8vw;
     margin-left: 4vw;
 }
-
 
 .bottles {
     position: relative;
@@ -277,8 +290,9 @@ body {
     width: 100vw;
     height: 56.2500vw;
     background-image: url(../img/0185.png);
-    background-position: bottom;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .footer {

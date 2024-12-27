@@ -45,11 +45,6 @@
         margin-bottom: -1vw;
     }
 
-    .flower {
-        margin-left: 0.8vw;
-        margin-right: 2.5vw;
-    }
-
     .footer {
         margin-top: -118px;
     }
@@ -80,17 +75,10 @@
         margin-right: 19.4vw;
     }
 
-    .flower {
-        margin-left: 1vw;
-        margin-right: 2vw;
-    }
 }
 
 @media (max-width: 1280px) {
-    .flower {
-        margin-left: 0.7vw;
-        margin-right: 2vw;
-    }
+
 }
 
 @media (max-width: 1024px) {
@@ -102,17 +90,31 @@
         margin-right: 18.4vw;
     }
 
-    .flower {
-        margin-left: 0.7vw;
-        margin-right: 2.4vw;
+    .p-big {
+        height: 12vw;
     }
 
-    .Fl11, .Fl12 {
-        display: none;
-    }
 }
 
 @media (max-width: 768px) {
+    .apple {
+        margin-bottom: -1.96vw;
+    }
+
+    .saladtxt {
+        margin-bottom: -1.96vw;
+        margin-left: 33.44vw;
+        margin-right: 20.7vw;
+    }
+
+    .soup {
+        margin-bottom: 0;
+    }
+
+    .orange {
+        margin-bottom: -3.3vw;
+    }
+
     .footer {
         margin-top: -58px;
     }
@@ -120,40 +122,154 @@
     .group p{
         margin-right: 16.2vw;
     }
-    
-    .Fl9, .Fl10, .Fl11, .Fl12 {
-        display: none;
-    }
+
 }
 
 @media (max-width: 415px) {
-    .footer {
-        margin-top: -58px;
+    .p-big {
+        height: 15vw;
+    }
+
+    .apple {
+        margin-bottom: -3.6vw;
+    }
+
+    .saladtxt {
+        margin-bottom: -3.6vw;
+        margin-left: 22.44vw;
+        margin-right: 17.7vw;
+    }
+
+    .desk-4{
+        margin-top: 2vw;
+    }
+
+    .orange {
+        margin-bottom: -5vw;
+        margin-right: 11.31vw;
+    }
+
+    .tomato img {
+        margin-bottom: 0;
     }
 
     .group p{
         margin-right: 6.4vw;
     }
 
-    .flower {
-        margin-left: 8vw;
-        margin-right: 10vw;
+    .flower img {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Fapple img{
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Fapple {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Fstrawberry img {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Fstrawberry {
+        width: 17.6329vw;
+        height: 17.6329vw; 
+    }
+    
+    .Ftomato img{
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Ftomato {
+        width: 17.6329vw;
+        height: 17.6329vw;
     }
 
-    .Fl3, .Fl4, .Fl5, .Fl6, .Fl7, .Fl8 {
+    .Fl3, .Fl4, .Fl5, .Fl6, .Fl7, .Fl8, .Fl9, .Fl10, .Fl11, .Fl12 {
         display: none;
     }
 
-    .secondline, .fourthline {
-        margin-left: 17vw;
+    .flower {
+        margin-left: 1vw;
+        margin-right: 21.9807vw;
+    }
+
+    .Ffl3 {
+        margin-right: 1vw;
+    }
+
+    .firstline {
+        margin-top: 3.8647vw;
+        margin-bottom: 2.3188vw;
+    }
+
+    .thirdline {
+        margin-bottom: 2.3188vw;
     }
     
+    .secondline {
+        margin-bottom: 2.3188vw;
+        margin-left: 21.0145vw;
+    }
+
+    .fourthline {
+        margin-bottom: 3.8647vw;
+        margin-left: 21.0145vw;
+    }
+
+    .footer {
+        margin-top: -40px;
+    }
+    
+    .group p {
+        margin-right: 8.5vw;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .blueflower {
+        width: 100vw;
+        height: 98.6vw;
+    }
+
+    .fridge {
+        width: 90vw;
+        height: 90.9479vw;
+        background-image: url(../img/fridge.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 @media (max-width: 360px) {
-    .flower {
-        margin-left: 6.5vw;
-        margin-right: 9.5vw;
+    .apple {
+        margin-bottom: -4vw;
     }
 
+    .saladtxt {
+        margin-bottom: -4vw;
+    }
+
+    .orange {
+        margin-bottom: -6vw;
+        margin-right: 7.31vw;
+    }
+
+    .footer {
+        margin-top: -39px;
+    }
+
+    .group p {
+        margin-right: 6.5vw;
+    }
 }

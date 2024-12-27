@@ -1,5 +1,5 @@
 .p-big p{
-    animation: p-big 3s linear infinite;
+    animation: p-big 1.1s linear infinite;
 }
 
 .p-big:hover {
@@ -7,17 +7,17 @@
 }
 
 @keyframes p-big {
-    0%{right: 100%; top: 0px;}
-    100%{right: -100%; top: 0px;}
+    0% {transform: translate3d(-100%, 0, 0);}
+    to {transform: translate3d(0, 0, 0);}
 }
 
 .LeftBig p{
-    animation: p-bigLeft 2.2s linear infinite;
+    animation: p-bigLeft 1.1s linear infinite;
 }
 
 @keyframes p-bigLeft {
-    0%{left: 100%; top: 0px;}
-    100%{left: -100%; top: 0px;}
+    0% {transform: translateZ(0);}
+    to {transform: translate3d(-100%, 0, 0);}
 }
 
 .salat {
@@ -83,13 +83,13 @@
     100%{left: 15px; top: 0;}
 }
 
-.animvegetables img {
-    animation: animveg 3s linear infinite;
+.animvegetables {
+    animation: animveg 2s linear infinite;
 }
 
 @keyframes animveg {
-    0%{left: 100%; top: 0px;}
-    100%{left: -100%; top: 0px;}
+    0% {transform: translate3d(0%, 0, 0);}
+    to {transform: translate3d(-100%, 0, 0);}
 }
 
 .blueflower {
