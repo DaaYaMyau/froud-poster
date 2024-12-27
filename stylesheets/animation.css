@@ -120,8 +120,8 @@
 }
 
 .Fapple:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
     background-size: 90% auto;
     background-image: url(../img/apple.svg);
     background-position: center;
@@ -129,8 +129,8 @@
 }
 
 .Fstrawberry:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
     background-size: 90% auto;
     background-image: url(../img/strawberrysmall.svg);
     background-position: center;
@@ -138,8 +138,8 @@
 }
 
 .Ftomato:hover {
-    width: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
-    height: clamp(4rem, 3.928rem + 0.32vw, 4.313rem);
+    width: 3.5417vw;
+    height: 3.5417vw;
     background-size: 90% auto;
     background-image: url(../img/tomatosmall.svg);
     background-position: center;

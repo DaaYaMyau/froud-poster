@@ -4,6 +4,7 @@ body {
     font-family: "Gridtile";
     width: 100vw;
     overflow-x: hidden;
+    cursor: url(../img/cursor.svg), default;
 }
 
 .p-big {
