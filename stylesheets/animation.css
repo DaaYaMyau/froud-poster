@@ -84,7 +84,7 @@
 }
 
 .animvegetables {
-    animation: animveg 2s linear infinite;
+    animation: animveg 1.5s linear infinite;
 }
 
 @keyframes animveg {

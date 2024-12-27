@@ -188,6 +188,21 @@
         height: 17.6329vw;
     }
 
+    .Fapple:hover {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Fstrawberry:hover {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+    
+    .Ftomato:hover {
+        width: 17.6329vw;
+        height: 17.6329vw;
+    }
+
     .Fl3, .Fl4, .Fl5, .Fl6, .Fl7, .Fl8, .Fl9, .Fl10, .Fl11, .Fl12 {
         display: none;
     }
