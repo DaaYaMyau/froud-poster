@@ -142,6 +142,7 @@ body {
     width: 263.76vw;
     height: 22.55vw;
     background-image: url(../img/animationblock.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
